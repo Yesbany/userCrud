@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar__title {
+    margin: 0;
+    font-size: 24px;
+}
+
+@media (min-width: 768px) {
+    .navbar__title {
+        font-size: 30px;
+    }
+}
+
+.navbar__button {
+    background-color: var(--purple);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 200ms ease;
+}
+
+.navbar__button:hover {
+    background-color: var(--purple-medium);
+}
